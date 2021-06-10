@@ -1,2 +1,2 @@
 # WahlSock
-Lightweight Winsock TCP/IP Library to easily setup network connections on Windows machines.
+Lightweight C++ TCP/IP Library for Windows utilizing Winsock
