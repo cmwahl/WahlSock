@@ -1,7 +1,7 @@
 ﻿// WahlSock.cpp : Defines the entry point for the application.
 //
 #pragma comment (lib, "ws2_32.lib")
-#pragma comment (lib, "irprops.lib")
+//#pragma comment (lib, "irprops.lib")
 #include "WahlSock.h"
 
 using namespace std;
