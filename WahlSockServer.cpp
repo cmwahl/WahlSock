@@ -91,10 +91,10 @@ namespace WahlSock {
 			if (!isConnected(targetCheck)) {
 				clientSockets[targetCheck] = client;
 				clientInfo[targetCheck] = _clientInfo;
+				connected[targetCheck] = true;
 				std::thread x(&Server::recvThread, this, targetCheck);
 				x.detach();
 				++clientCount;
-				connected[targetCheck] = true;
 				std::cout << "Established!" << std::endl;
 				return true;
 			}
